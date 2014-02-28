@@ -1,4 +1,5 @@
-var http = require('http'),
+var http = require('http')
+    port = process.env.port || 1337,
     fs = require('fs')
     url = require('url'),
     Router = require('node-simple-router'),
@@ -104,7 +105,7 @@ router.get('/twitter/callback', function(req, res){
  * Server Listen Port 3000
  */
 server = http.createServer(router);
-server.listen(80);
+server.listen(port);
 
 
 
