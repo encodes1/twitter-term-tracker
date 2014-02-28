@@ -6,7 +6,7 @@ var http = require('http'),
     session = require('sesh').magicSession(),
     twitter = require('twitter'),
     OAuth = require('oauth').OAuth,
-    domain = 'http://dwa.ngrok.com';
+    domain = 'http://dwa-app1.azurewebsites.net';
 
 
 /**

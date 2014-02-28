@@ -3,7 +3,7 @@
  */
 // Get host without port and create new WebSocket
 var host = window.document.location.host.replace(/:.*/, ''),
-    ws = new WebSocket('ws://ws' + host);// + ':8080');
+    ws = new WebSocket('ws://' + host + ':8080');
 
 
 /**
