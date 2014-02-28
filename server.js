@@ -104,7 +104,7 @@ router.get('/twitter/callback', function(req, res){
  * Server Listen Port 3000
  */
 server = http.createServer(router);
-server.listen(3000);
+server.listen(80);
 
 
 
