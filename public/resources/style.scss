@@ -1,0 +1,80 @@
+@import 'bourbon/bourbon';
+@import 'neat/neat';
+@import 'reset';
+
+$wet-asphalt: #34495e;
+$cloud: #ecf0f1;
+$green-sea: #16a085;
+
+*{
+  font-family: $helvetica;
+}
+
+body{
+  background: $cloud;
+}
+
+header{
+  width: 100%;
+  padding-bottom: 40px;
+  background-color: $wet-asphalt;
+
+  h1{
+    text-align: center;
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 100;
+    line-height: 1.2em;
+    margin: 0 auto 0;
+    max-width: 980px;
+    padding: 50px 0 0;
+    text-align: center;
+    text-shadow: 0px 2px 2px #2c3e50;
+  }
+
+  #chart{
+    height: 300px;
+  }
+
+  #control{
+    height: 60px;
+  }
+}
+
+form{
+  margin-top: -31px;
+  input{
+
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    font-size: 32px;
+    width: 600px;
+    font-weight: 100;
+    border: none;
+
+    &[type="submit"]{
+      @include button(flat, $green-sea);
+      padding: 10px;
+      margin-bottom: 30px;
+      font-weight: 300;
+    }
+  }
+}
+
+.btn{
+
+  &#kill-twitter{
+    @include button(flat, #c0392b);
+  }
+
+  &#resume-twitter{
+    @include button(flat, #2ecc71);
+  }
+
+  display: block;
+  margin: 10px auto;
+  width: 300px;
+  text-align: center;
+}

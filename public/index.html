@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DWA - App1 </title>
+        <link rel="stylesheet" href="resources/style.css"/>
+        <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+        <script src="resources/app.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Tweet Tracker</h1>
+            <!--<div id="chart">-->
+                <!--&lt;!&ndash; Placeholder &ndash;&gt;-->
+            <!--</div>-->
+            <div id="dashboard">
+                <div id="chart"></div>
+                <div id="control"></div>
+            </div>
+        </header>
+        <form id="tweet-form" action="#">
+            <input id="search-term" type="text" placeholder="Awaiting term..."/>
+            <input type="submit" id="track-btn" value="Track" />
+        </form>
+        <span id="kill-twitter" class="btn">Kill Twitter Connection!</span>
+        <span id="resume-twitter" class="btn">Resume Twitter Connection!</span>
+    </body>
+</html>

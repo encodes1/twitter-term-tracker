@@ -1,0 +1,196 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+body {
+  line-height: 1; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+nav ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none; }
+
+q:before, q:after {
+  content: '';
+  content: none; }
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none; }
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold; }
+
+del {
+  text-decoration: line-through; }
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0; }
+
+input, select {
+  vertical-align: middle; }
+
+* {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+body {
+  background: #ecf0f1; }
+
+header {
+  width: 100%;
+  padding-bottom: 40px;
+  background-color: #34495e; }
+  header h1 {
+    text-align: center;
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 100;
+    line-height: 1.2em;
+    margin: 0 auto 0;
+    max-width: 980px;
+    padding: 50px 0 0;
+    text-align: center;
+    text-shadow: 0px 2px 2px #2c3e50; }
+  header #chart {
+    height: 300px; }
+  header #control {
+    height: 60px; }
+
+form {
+  margin-top: -31px; }
+  form input {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    font-size: 32px;
+    width: 600px;
+    font-weight: 100;
+    border: none; }
+    form input[type="submit"] {
+      background-color: #16a085;
+      color: white;
+      padding: 7px 18px;
+      text-decoration: none;
+      background-clip: padding-box;
+      border: none;
+      padding: 10px;
+      margin-bottom: 30px;
+      font-weight: 300; }
+      form input[type="submit"]:hover:not(:disabled) {
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        transition: all 0.5s;
+        background-color: #15bb9a;
+        cursor: pointer; }
+      form input[type="submit"]:active:not(:disabled) {
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        transition: all 0.5s;
+        background-color: #168670;
+        cursor: pointer; }
+      form input[type="submit"]:disabled {
+        opacity: 0.5;
+        cursor: not-allowed; }
+
+.btn {
+  display: block;
+  margin: 10px auto;
+  width: 300px;
+  text-align: center; }
+  .btn#kill-twitter {
+    background-color: #c0392b;
+    color: white;
+    padding: 7px 18px;
+    text-decoration: none;
+    background-clip: padding-box;
+    border: none; }
+    .btn#kill-twitter:hover:not(:disabled) {
+      -webkit-transition: all 0.5s;
+      -moz-transition: all 0.5s;
+      transition: all 0.5s;
+      background-color: #d63e2e;
+      cursor: pointer; }
+    .btn#kill-twitter:active:not(:disabled) {
+      -webkit-transition: all 0.5s;
+      -moz-transition: all 0.5s;
+      transition: all 0.5s;
+      background-color: #a7362b;
+      cursor: pointer; }
+    .btn#kill-twitter:disabled {
+      opacity: 0.5;
+      cursor: not-allowed; }
+  .btn#resume-twitter {
+    background-color: #2ecc71;
+    color: white;
+    padding: 7px 18px;
+    text-decoration: none;
+    background-clip: padding-box;
+    border: none; }
+    .btn#resume-twitter:hover:not(:disabled) {
+      -webkit-transition: all 0.5s;
+      -moz-transition: all 0.5s;
+      transition: all 0.5s;
+      background-color: #3bd97e;
+      cursor: pointer; }
+    .btn#resume-twitter:active:not(:disabled) {
+      -webkit-transition: all 0.5s;
+      -moz-transition: all 0.5s;
+      transition: all 0.5s;
+      background-color: #2eb366;
+      cursor: pointer; }
+    .btn#resume-twitter:disabled {
+      opacity: 0.5;
+      cursor: not-allowed; }
